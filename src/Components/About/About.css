@@ -29,6 +29,12 @@
     gap: 80px;
 }
 
+.my-photo {
+    border-radius: 0%;
+    height: 100%;
+    width: 450px;
+}
+
 .about-right {
     display: flex;
     flex-direction: column;

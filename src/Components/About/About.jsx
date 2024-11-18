@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+import profile_img from '../../assets/my-photo.jpg'
 
 const About = () => {
   return (
@@ -12,12 +12,12 @@ const About = () => {
         </div>
         <div className="about-sections">
           <div className="about-left">
-            <img src={profile_img} alt="" />
+            <img src={profile_img} alt="" className='my-photo'/>
           </div>
           <div className="about-right">
             <div className="about-para">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi in expedita laboriosam voluptas aperiam totam eveniet fugit aspernatur, earum hic.</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, natus ut voluptatibus deserunt enim ullam debitis, neque facilis similique commodi delectus.</p>
+              <p>Skilled in responsive design and performance optimization to ensure seamless user experiences.</p>
+              <p>With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life and ensure they perform optimally across all devices..</p>
             </div>
             <div className="about-skills">
               <div className="about-skill"><p>HTML & CSS</p>

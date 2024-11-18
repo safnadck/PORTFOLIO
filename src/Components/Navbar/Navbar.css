@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 170px;
+    margin-top: 1px;
 }
 
 .nav-menu {
@@ -11,6 +12,12 @@
     list-style: none;
     gap: 60px;
     font-size: 20px;
+}
+
+.safnad-logo {
+    width:320px;
+     height:320px;
+    
 }
 
 .nav-connect {
